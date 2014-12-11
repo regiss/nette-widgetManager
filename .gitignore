@@ -1,12 +1,16 @@
 log/*
 !log/
+
 temp/*
+!temp/
+
 vendor/*
 !vendor/others
 .idea*
 
-.DS_Store
 !.gitignore
 !.htaccess
 !web.config
+
+.DS_Store
 app/config/config.local.neon
